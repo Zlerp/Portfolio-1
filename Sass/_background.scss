@@ -1,0 +1,40 @@
+
+.fullscreen-bg {
+  position:absolute;
+  height:100%;
+  width:100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.fullscreen-bg__video {
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-filter: grayscale(1) contrast(1);
+  opacity: 1;
+
+}
+
+// body {
+//   background: url("http://wallpaper.pickywallpapers.com/1920x1080/cyan-city-landscape.jpg") no-repeat center center fixed;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   -ms-background-size: cover;
+//   background-size: cover;
+// }
+
+.backDrop {
+  // @include g2;
+  // background-color: rgba(0, 0, 0, .4);
+  background: -webkit-linear-gradient( top, rgba(0, 0, 0, .2), black);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -100;
+}
+//
+img.pure-img{
+  min-width: 100%;
+  min-height: 100%;
+}
